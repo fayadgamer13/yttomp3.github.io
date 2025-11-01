@@ -1,0 +1,22 @@
+{
+  "name": "youtube-mp3-converter-backend",
+  "version": "1.0.0",
+  "description": "Backend for YouTube to MP3 conversion (requires external tool like yt-dlp)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "ytdl-core": "^4.11.5"
+  },
+  "keywords": [
+    "youtube",
+    "mp3",
+    "converter",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC"
+}
